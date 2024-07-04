@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'apps.home.apps.HomeConfig',
     'apps.period.apps.PeriodConfig',
     'apps.seguimiento.apps.SeguimientoConfig',
+    'apps.cumplimiento.apps.CumplimientoConfig',
     #'apps.hourly_load.apps.HourlyLoadConfig',
     'apps.group.apps.GroupConfig',
     'apps.academy.apps.AcademyConfig',
