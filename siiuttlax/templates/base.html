@@ -24,7 +24,7 @@
 
         <ul class="navigation">
             <li>
-                <a href="home.html">
+                <a href="{% url 'home:home' %}">
                     Inicio
                 </a>
             </li>
@@ -61,7 +61,8 @@
                 <div class="subnavigation__wrapper">
                     <ul>
                         <li>
-                            <a href="{ url 'justifying_student.html' %}">
+                            
+                            <a href="">
                                 Justificantes Alumno
                             </a>
                         </li>
@@ -78,6 +79,11 @@
                         <li>
                             <a href="individual_monitoring.html">
                                 Seguimiento Individual
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'seguimiento' %}">
+                                Seguimiento Tutorial
                             </a>
                         </li>
                         <li>
